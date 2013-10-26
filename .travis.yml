@@ -5,10 +5,12 @@ compiler:
     - clang
 
 before_install:
+    - sudo add-apt-repository ppa:ubuntu-toolchain-r/test --yes # libstdc++-4.8
     - sudo add-apt-repository --yes ppa:h-rayflood/llvm # add clang++-3.2
     - sudo apt-get -qq update
 
 install:
+    - sudo apt-get install g++-4.8; # clang need it for libstdc++ update
     - sudo apt-get -qq install clang-3.2
 
 script:
