@@ -12,4 +12,12 @@ install:
     - sudo apt-get -qq install clang-3.2
 
 script:
-    - clang++-3.2 --version
+    - export CXX="clang++-3.2"
+    - export CC="clang-3.2"
+    - which ${CXX}
+    - which ${CC}
+    - mkdir _builds
+    - cd _builds
+    - cmake ..
+    - make
+    - ./test_bin
