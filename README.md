@@ -9,5 +9,5 @@ Test `clang++-3.2` existance:
 [![Build Status](https://travis-ci.org/travis-ci-tester/travis-test-clang-3.2.png?branch=external.repo)](https://travis-ci.org/travis-ci-tester/travis-test-clang-3.2)
 * `cmake.clang-3.2` (**passed**: cmake detect clang-3.2):
 [![Build Status](https://travis-ci.org/travis-ci-tester/travis-test-clang-3.2.png?branch=cmake.clang-3.2)](https://travis-ci.org/travis-ci-tester/travis-test-clang-3.2)
-* `cmake.clang-3.2.libstdc++-4.8` (**???**: cmake detect clang-3.2 with libstdc++-4.8):
+* `cmake.clang-3.2.libstdc++-4.8` (**passed**: cmake detect clang-3.2 with libstdc++-4.8):
 [![Build Status](https://travis-ci.org/travis-ci-tester/travis-test-clang-3.2.png?branch=cmake.clang-3.2.libstdc%2B%2B-4.8)](https://travis-ci.org/travis-ci-tester/travis-test-clang-3.2)
