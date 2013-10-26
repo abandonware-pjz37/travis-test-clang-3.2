@@ -4,5 +4,11 @@ language:
 compiler:
     - clang
 
+before_install:
+    - sudo apt-get -qq update
+
+install:
+    - sudo apt-get -qq install clang-3.2
+
 script:
     - clang++-3.2 --version
