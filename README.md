@@ -7,3 +7,5 @@ Test `clang++-3.2` existance:
 [![Build Status](https://travis-ci.org/travis-ci-tester/travis-test-clang-3.2.png?branch=try.install)](https://travis-ci.org/travis-ci-tester/travis-test-clang-3.2)
 * `external.repo` (**passed**):
 [![Build Status](https://travis-ci.org/travis-ci-tester/travis-test-clang-3.2.png?branch=external.repo)](https://travis-ci.org/travis-ci-tester/travis-test-clang-3.2)
+* `cmake.clang-3.2` (**???**: cmake detect clang-3.2):
+[![Build Status](https://travis-ci.org/travis-ci-tester/travis-test-clang-3.2.png?branch=cmake.clang-3.2)](https://travis-ci.org/travis-ci-tester/travis-test-clang-3.2)
