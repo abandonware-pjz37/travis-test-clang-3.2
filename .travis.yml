@@ -2,7 +2,7 @@ language:
     - cpp
 
 compiler:
-    - clang
+    - clang-3.2
 
 script:
     - clang++-3.2 --version
