@@ -5,7 +5,7 @@ compiler:
     - clang
 
 before_install:
-    - sudo add-apt-repository --yes ppa:h-rayflood/llvm
+    - sudo add-apt-repository --yes ppa:h-rayflood/llvm # add clang++-3.2
     - sudo apt-get -qq update
 
 install:
